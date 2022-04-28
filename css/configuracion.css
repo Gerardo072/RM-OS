@@ -1,18 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html {
-
+    /* Tamaño base de la web */
     font-size: 10;
 
-
-    font-family: 'Courier New' monospace;
+    /* Tipografía */
+    font-family: 'Libre Bodoni', monospace;
 }
 
 :root {
-   contain: #182126;
-   color: #484848;
+    --color_1: #00FFFF;
+    --color-texto: #C4C4C4;
 }
