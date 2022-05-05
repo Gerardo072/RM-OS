@@ -1,0 +1,31 @@
+.barraTareas{
+    width: 55rem;
+    height: 2rem;
+    margin-top: 590px;
+    background-color: black;
+}
+.windows{
+    position: absolute;
+    height: 86px;
+    width: 108px;
+    left: -804px;
+    top: 1058px;
+    border-radius: 0px;
+}
+.carpeta{
+    position: absolute;
+    height: 86px;
+    width: 97px;
+    left: -668px;
+    top: 1058px;
+    border-radius: 190px;
+    
+}
+.Hora{
+    position: absolute;
+    height: 86px;
+    width: 166px;
+    left: 1964px;
+    top: 1058px;
+    border-radius: 0px;    
+}
