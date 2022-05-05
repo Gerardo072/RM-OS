@@ -3,22 +3,28 @@
     height: 2rem;
     margin-top: 590px;
     background-color: black;
+
+    /* Alineación de items */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.carpeta{
-    position: absolute;
-    height: 86px;
-    width: 97px;
-    left: -668px;
-    top: 1058px;
-    border-radius: 190px;
-    
+
+.imagen2 {
+    width: 1.8rem;
+    height: 1.8rem;
 }
-.Hora{
-    height: 86px;
-    width: 166px;
-    left: 1964px;
-    top: 1058px;
-    border-radius: 9px;
-    text-align: right;
-    
+
+.imagen3 {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.imagen4{
+    width: 5rem;
+    height: 1.8rem;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
