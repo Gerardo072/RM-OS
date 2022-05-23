@@ -1,0 +1,16 @@
+.ventana {
+    /* Ocultar el contenido */
+    display: none;/* <----- */
+
+    width: 65rem;
+    height: 40rem;
+    background-color:  #00FFFF;
+
+    position: absolute;
+    top: 10rem;
+    right: 20rem;
+}
+
+.activo {
+    display: block;
+}

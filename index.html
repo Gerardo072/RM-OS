@@ -4,33 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RM-OS</title>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
     <!-- Archivos CSS -->
     <link rel="stylesheet" href="./css/configuracion.css">
     <link rel="stylesheet" href="./css/escritorio.css">
     <link rel="stylesheet" href="./css/barraTareas.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/ventana.css">
 
 </head>
 <body>
-
+    
     <div class="escritorio">
-        <img src="https://cdn.wallpapersafari.com/38/24/ws7oQ8.jpg" alt="">
-    </div>
+        
+        <!-- Barra de tareas -->
+        <div class="barra-tareas">
 
-    <div class="barraTareas">
-        <!-- Menú -->
-        <div class="windows">
-            <!-- Imagen del menú -->
-            <img class="imagen2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Logo_%281992-2001%29.svg/245px-Windows_Logo_%281992-2001%29.svg.png">
-            <img class="imagen3" src="https://upload.wikimedia.org/wikipedia/commons/7/7f/File-Explorer-fluent-icon.png">
+            <div class="bt-iconos-aplicaciones">
+                <!-- Menú -->
+                <nav class="menu">
+                    <img class="ico-menu " src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Logo_%281992-2001%29.svg/245px-Windows_Logo_%281992-2001%29.svg.png" alt="">
+                    <ul class="li-menu">
+                        <li>Opción 1</li>
+                        <li>Opción 2</li>
+                        <li>Opción 3</li>
+                        <li>Opción 4</li>
+                    </ul>
+                </nav>
+                <!-- Iconos de la barra de tareas -->
+                <img class="bt-icono" id="carpeta" src="https://github.com/Gerardo072/RM-OS/blob/main/image%203.png?raw=true" alt="">
+            </div>
 
+            <div class="bt-iconos-notificaciones">
+                <div>
+                    <span>2:50</span>
+                    <span>22/05/2022</span>
+                </div>
+            </div>
+            
         </div>
+
+        <!-- Ventana -->
+        <div class="ventana" id="ventana"></div>
     </div>
 
     <!-- Archivos de programación js -->
